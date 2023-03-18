@@ -1,0 +1,56 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+#posts-table,#products-table,#todos-table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.btn{
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+}
+.loader {
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #3498db;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: none;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
